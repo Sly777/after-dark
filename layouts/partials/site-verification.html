@@ -10,3 +10,6 @@
 {{ if .Site.Params.seo.webmaster_verifications.yandex }}
   <meta name="yandex-verification" content="{{ .Site.Params.seo.webmaster_verifications.yandex }}">
 {{ end }}
+{{ if .Site.Params.seo.webmaster_verifications.norton }}
+  <meta name="norton-safeweb-site-verification" content="{{ .Site.Params.seo.webmaster_verifications.norton }}" />
+{{ end }}
